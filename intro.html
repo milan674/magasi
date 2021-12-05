@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemutatkozás</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/ableplayer/thirdparty/js.cookie.js"></script>
+    <link rel="stylesheet" href="ableplayer/styles/ableplayer.css" type="text/css"/>
+    <script src="/ableplayer/build/ableplayer.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="skiplink">
+    <a href="#main">Ugrás a fő tartalomhoz</a>
+  </div>    
+  <header>
+    <nav class="navbar navbar-expand-lg  mynav" aria-label="Főmenü"  >
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="index.html"><img src="/img/Kemenesmagasi.png" alt="Ugrás a főoldalra." height="70"></a>
+        <button class="navbar-toggler" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+        aria-expanded="false" aria-label="A menü megnyitása">
+          <span class="navbar-toggler-icon mx-3">Menü</span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-auto" >
+              <a class="nav-link mx-4" href="/index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item mx-auto" > 
+              <a class="nav-link mx-4 "  aria-current="page" href="/intro.html">Bemutatkozás</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link mx-4 " href="/news.html" >Hírek</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link mx-4 "  href="/contact.html" >Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <div class="container">
+    <h1 class="text-center my-3">Iskolánk bemutatkozása </h1>
+
+      <div class="container-fluid px-5 mb-3 ">
+        <div  class="mx-auto d-block"> 
+          <video id="video1" data-able-player preload="auto" width="500" height="400" >
+            <source type="video/webm" src="img/video_magasi.webm" data-desc-src="img/video_magasi.webm"/>
+            <source type="video/mp4" src="/img/video_magasi.mp4" data-desc-src="/img/video_magasi.mp4"/>
+            <track kind="captions" src="/img/magasi.vtt"/  srclang="hu">
+          </video>
+        </div>
+       
+
+        <div class="container text-center">
+            <img src="/img/line2.png" alt="" width="400px">
+        </div>
+         
+      <section aria-label="Múlt">
+        <h2>Iskolánk történelme</h2>
+        <h3>1900-as évek előtt</h3>
+        <p>Az iskola múltja az ismert adatok szerint több, mint 300 évre tekint vissza. Kezdetben felekezeti iskolák működtek Kemenesmagasiban. Az adatok az egyházi feljegyzésekből ismertek.
+        Az evangélikus gyülekezet a 16. század első felében alakult meg, 1695-ben már az iskola is működött, Dolgos András volt a felekezet tanítója.
+        1807-ben – a jelenlegi iskola helyén – emelték az első épületet, majd 1845-ben és 1895-ben is bővítették. Ekkor 4 tanterem állt rendelkezésre.
+        A legrégebben épület a főkapu melletti tantermek, valamint a katolikus iskola terme, a jelenlegi házasságkötő terem.</p>
+        <h3>20. század</h3>
+        <p>1948. július 1-jén az iskolákat államosították. A két felekezeti iskola megszűnt, azoknak örököseként az Állami Általános Iskola folytatta az iskolai oktatást. Akkoriban tanterem- és a tanerő hiánnyal küzdött az intézmény. Mivel a tanulók létszáma az 1948/49-es tanévben 235 fő volt és csak öt nevelő tanított, további fejlesztésekre volt szükség.
+        Az 1967-68-as tanévben kerültek a kemenesmagasi iskolához Szergény felső tagozatos diákjai, 1974 őszétől pedig az alsó tagozatosok is a magasi iskolába jártak.</p>
+        <img class="mx-auto d-block my-4  img-fluid responsive-img" src="/img/regi_epulet.jpg" alt="Az iskola épülete az 1970-es évekből." >
+        <p>
+        1971-ben épült meg a jelenlegi tanári szoba. A szülők bevonásával, az 1970-es évek közepén megépítették a tornatermet. Az iskolaudvarról nyíló tantermeket körfolyosóval kapcsolták össze, az épületben kapott helyet az új vizesblokk is. 1976-ban fejeződött be a munka.
+        1986-87-ben kezdték el az iskolai napközis konyha és ebédlő építését, amelyet az iskola udvarára terveztek. Addig egy, az iskolától távol eső épületben oldották meg a tanulók étkeztetést.</p>
+        <h3>21. század</h3>
+        <p>Az iskola történetében először az összes évfolyam a 2001-2002-es tanévben közös épületbe került. Az első és a második osztály a régi „kisiskolából”  (régi katolikus iskolából) átköltözött a tanítói lakásból kialakított két tanterembe.
+        2007-ben a vönöcki iskola megszűnésével három falu önkormányzata lett az iskola fenntartója – Kemenesmagasi, Szergény, Vönöck.</p>
+    </section>
+
+    <div class="container text-center">
+        <img src="/img/line2.png" alt="" width="400px">
+    </div>
+
+    <section>
+        <h2>Napjainkban</h2>
+        <img class=" img-fluid mx-auto d-block my-4 responsive-img regi" src="/img/iskola épülete.jpg" alt="Iskola épülete 2021-ben.">
+        <h3>Tanáraink</h3>
+        <table class="table table-responsive text-center tanarok">
+          <caption class="visually-hidden">
+            Csengetési rend az iskolában.
+                  <span>
+            A következő táblázat tartalmazza a csengetési rendet. 
+                   </span>
+            </caption>     
+          <thead>
+            <tr>
+              <th scope="colgroup">Név</th>
+              <th scope="colgroup">Tárgy, beosztás</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="rowgroup">Halász Ferenc</th>
+              <td>Történelem, technika, megbízott igazgató</td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Nagy Andrea </th>
+              <td>magyar, ének, megbízott igazgató helyettes</td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Ambrusné Horváth Adrienn</th>
+              <td>etika, hon- és népismeret </td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Császárné Szalai Andrea</th>
+              <td>testnevelés, rajz</td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Géczi-Németh Judit</th>
+              <td>matematika, informatika </td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Gelesits Marcell</th>
+              <td>német, könyvtáros</td>
+            </tr>
+          
+            <tr>
+              <th scope="rowgroup">Karádi Enikő</th>
+              <td>földrajz , könyvtáros</td>
+            </tr>
+            <tr>
+              <th scope="rowgroup"> Nagy-Kovács Katalin</th>
+              <td>matematika, testnevelés, ének </td>
+            </tr>
+            <tr>
+              <th scope="rowgroup"> Palotai László</th>
+              <td>fizika, ének </td>
+            </tr>
+            <tr>
+              <th scope="rowgroup"> Rozmánné Csiszlér Diána</th>
+              <td>magyar, történelem, etika </td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Sebestyén Zoltán</th>
+              <td>testnevelés, ének </td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Veszprémi Zsuzsanna</th>
+              <td>magyar, matematika, ének </td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Vinczéné Szélesi Anikó </th>
+              <td>rajz, természettudomány, biológia, kémia</td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Vörösné Jordanits Marianna </th>
+              <td>magyar, matematika, testnevelés, technika</td>
+            </tr>
+            <tr>
+              <th scope="rowgroup">Veszprémi Zsuzsanna</th>
+              <td>magyar, matematika, ének </td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Diákjaink</h3>
+        <p>Intézményünkbe fogadunk más településekről is diákokat. Szeretettel várjuk azokat, akik családias, barátságos légkörben, kis létszámú osztályokban, sok-sok egyéni odafigyelés mellett szeretnének tanulni.
+        Jelenleg is tanítunk, nevelünk diákokat Kemeneshőgyészből, Pápocról, Nagysimonyiból, Kemenesszentmártonból, Celldömölkről, Répcelakról, Kemenesmihályfáról. Iskolabuszunk szállítja a gyermekeket minden reggel és délután.</p>
+        <h3>Iskola épülete</h3>
+        <p>Iskolánk épülete 2019-ben felújításra került. A beruházás 110 millió forint pályázáti tőkéből valósult meg. 
+            Az épület nyílászáróit kicserélték, illetve a tetőszerkezetre napelemek kerültek, amelyek biztosítják az iskola energiaellátását.</p>
+        <img class=" img-fluid mx-auto d-block my-4 responsive-img" src="/img/atadas.jpg" alt="Iskola épületének átadása.">
+    </section>
+    </div>
+      
+  </div>
+  </main>
+  <div class="container text-center">
+    <img src="/img/line2.png" alt="" width="400px">
+  </div>
+ 
+
+  <footer aria-label="Másodlagos navigáció">
+    <div class="container">
+      <nav>
+      <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+          <a href="#skiplink" class="link">Vissza az oldal elejére</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#!" class="link">Oldaltérkép</a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+  </footer>
+
+</div>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

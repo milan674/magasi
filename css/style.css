@@ -1,0 +1,95 @@
+
+body{
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #fff !important;
+
+}
+nav {
+    background-color: #fff !important;
+    position: absolute;
+}
+.navbar{
+    border-bottom: 1px solid gainsboro;
+}
+
+.nav-item a{
+color: black !important;    
+font-size: 1.25rem;
+}
+
+
+nav li a:hover,
+nav li a:focus {    
+   
+    color: white !important;
+    background-color: #1d4289;
+    text-decoration: underline;
+}
+
+a:focus, a:hover{
+    color: white !important;
+    background-color: #1d4289;
+    text-decoration: underline;
+}
+
+
+#skiplink a{
+    position: absolute;
+    left:-10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#skiplink a:focus{
+    position: static;
+    width: auto;
+    height: auto;
+    color: white !important;
+    background-color: #1d4289;
+}
+
+nav [aria-current=page] {
+    color:#1d4289 !important;
+    text-decoration: underline;
+} 
+
+
+.link{
+    font-size: 1.5rem;
+}
+
+.responsive-img{
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+    height: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.tablazat{
+    max-width:300px ;
+    margin: auto;
+}
+.fogadas{
+    max-width:600px ;
+    margin: auto;
+}
+
+.lista{
+    line-height: 200%;
+}
+
+.second_list{
+    list-style-type: square;
+}
+
+.error{
+    color:red;
+}
